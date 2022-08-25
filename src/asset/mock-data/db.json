@@ -1,0 +1,490 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "label": "Burger and Fries"
+    },
+    {
+      "id": 2,
+      "label": "Pizza"
+    },
+    {
+      "id": 3,
+      "label": "Pasta"
+    },
+    {
+      "id": 4,
+      "label": "Pancake"
+    },
+    {
+      "id": 5,
+      "label": "Snacks"
+    },
+    {
+      "id": 6,
+      "label": "Drinks"
+    }
+  ],
+  "foodndrink": [
+    {
+      "id": 1,
+      "nama": "O.G. Burger",
+      "harga": 43000,
+      "is_ready": true,
+      "gambar": "og_burger.png",
+      "category": {
+        "id": 1,
+        "label": "Burger and Fries"
+      }
+    },
+    {
+      "id": 2,
+      "nama": "Rainy Egg OnTop Burger",
+      "harga": 50000,
+      "is_ready": true,
+      "gambar": "egg_ontop_burger.png",
+      "category": {
+        "id": 1,
+        "label": "Burger and Fries"
+      }
+    },
+    {
+      "id": 3,
+      "nama": "Double Beef Burger",
+      "harga": 55000,
+      "is_ready": true,
+      "gambar": "double_beef_burger.png",
+      "category": {
+        "id": 1,
+        "label": "Burger and Fries"
+      }
+    },
+    {
+      "id": 4,
+      "nama": "Veggie Burger",
+      "harga": 32000,
+      "is_ready": true,
+      "gambar": "veggie_burger.png",
+      "category": {
+        "id": 1,
+        "label": "Burger and Fries"
+      }
+    },
+    {
+      "id": 5,
+      "nama": "Golden Fries",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "fries.png",
+      "category": {
+        "id": 1,
+        "label": "Burger and Fries"
+      }
+    },
+    {
+      "id": 6,
+      "nama": "Paket Single Burger and Fries",
+      "harga": 57000,
+      "is_ready": true,
+      "gambar": "paket_single_burger_fries.png",
+      "category": {
+        "id": 1,
+        "label": "Burger and Fries"
+      }
+    },
+    {
+      "id": 7,
+      "nama": "Paket Double Burger and Fries",
+      "harga": 115000,
+      "is_ready": true,
+      "gambar": "paket_double_burger_fries.png",
+      "category": {
+        "id": 1,
+        "label": "Burger and Fries"
+      }
+    },
+    {
+      "id": 8,
+      "nama": "Paperoni & Cheese Pizza",
+      "harga": 74000,
+      "is_ready": true,
+      "gambar": "paperoni_cheese_pizza.png",
+      "category": {
+        "id": 2,
+        "label": "Pizza"
+      }
+    },
+    {
+      "id": 9,
+      "nama": "Paperoni & Cheese Pizza with Tomato Sauce",
+      "harga": 78000,
+      "is_ready": true,
+      "gambar": "paperoni_cheese_pizza_tomato.png",
+      "category": {
+        "id": 2,
+        "label": "Pizza"
+      }
+    },
+    {
+      "id": 10,
+      "nama": "Shrimp Fresh Seafood Pizza",
+      "harga": 78000,
+      "is_ready": true,
+      "gambar": "seafood_pizza.png",
+      "category": {
+        "id": 2,
+        "label": "Pizza"
+      }
+    },
+    {
+      "id": 11,
+      "nama": "Chicken Mushroom Pizza",
+      "harga": 80000,
+      "is_ready": true,
+      "gambar": "chicken_mushroom_pizza.png",
+      "category": {
+        "id": 2,
+        "label": "Pizza"
+      }
+    },
+    {
+      "id": 12,
+      "nama": "Italian Spaghetti Meatballs",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "italian_spaghetti_meatballs.png",
+      "category": {
+        "id": 3,
+        "label": "Pasta"
+      }
+    },
+    {
+      "id": 13,
+      "nama": "Italian Fusilini Meatballs",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "italian_fusilli_meatballs.png",
+      "category": {
+        "id": 3,
+        "label": "Pasta"
+      }
+    },
+    {
+      "id": 14,
+      "nama": "Italian Fettuccie Saltedegg Meatballs",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "italian_fettuccie_salted_egg_meatballs.png",
+      "category": {
+        "id": 3,
+        "label": "Pasta"
+      }
+    },
+    {
+      "id": 15,
+      "nama": "Italian Conchiglie Frankfurter",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "italian_conchiglie_frankfurter.png",
+      "category": {
+        "id": 3,
+        "label": "Pasta"
+      }
+    },
+    {
+      "id": 16,
+      "nama": "Italian Vegetable Forfalle",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "italian_vegetable_forfalle.png",
+      "category": {
+        "id": 3,
+        "label": "Pasta"
+      }
+    },
+    {
+      "id": 17,
+      "nama": "Maple Syrup Pancake",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "maple_syrup_pancake.png",
+      "category": {
+        "id": 4,
+        "label": "Pancake"
+      }
+    },
+    {
+      "id": 18,
+      "nama": "Chocolate Pancake",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "chocolate_pancake.png",
+      "category": {
+        "id": 4,
+        "label": "Pancake"
+      }
+    },
+    {
+      "id": 19,
+      "nama": "Vanilla Pancake",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "vanilla_pancake.png",
+      "category": {
+        "id": 4,
+        "label": "Pancake"
+      }
+    },
+    {
+      "id": 20,
+      "nama": "Strawberry Pancake",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "strawberry_pancake.png",
+      "category": {
+        "id": 4,
+        "label": "Pancake"
+      }
+    },
+    {
+      "id": 21,
+      "nama": "Blueberry Pancake",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "blueberry_pancake.png",
+      "category": {
+        "id": 4,
+        "label": "Pancake"
+      }
+    },
+    {
+      "id": 22,
+      "nama": "Paket Breakfast",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "paket_breakfast.png",
+      "category": {
+        "id": 4,
+        "label": "Pancake"
+      }
+    }
+  ],
+  "pesanan": [
+    {
+      "id": "trx1661366838568",
+      "keranjang": [
+        {
+          "id": 1,
+          "nama": "O.G. Burger",
+          "harga": 43000,
+          "gambar": "og_burger.png",
+          "is_ready": true,
+          "jum": 3
+        },
+        {
+          "id": 4,
+          "nama": "Veggie Burger",
+          "harga": 32000,
+          "gambar": "veggie_burger.png",
+          "is_ready": true,
+          "jum": 2
+        }
+      ],
+      "detail": {
+        "subtotal": 193000,
+        "tax": 21230
+      },
+      "total": 214230,
+      "tanggal_transaksi": "2022-08-24 18:47:18"
+    },
+    {
+      "id": "trx1661366911173",
+      "keranjang": [
+        {
+          "id": 8,
+          "nama": "Paperoni & Cheese Pizza",
+          "harga": 74000,
+          "gambar": "paperoni_cheese_pizza.png",
+          "is_ready": true,
+          "jum": 2
+        },
+        {
+          "id": 10,
+          "nama": "Shrimp Fresh Seafood Pizza",
+          "harga": 78000,
+          "gambar": "seafood_pizza.png",
+          "is_ready": true,
+          "jum": 3
+        },
+        {
+          "id": 11,
+          "nama": "Chicken Mushroom Pizza",
+          "harga": 80000,
+          "gambar": "chicken_mushroom_pizza.png",
+          "is_ready": true,
+          "jum": 1
+        }
+      ],
+      "detail": {
+        "subtotal": 462000,
+        "tax": 50820
+      },
+      "total": 512820,
+      "tanggal_transaksi": "2022-08-24 18:48:31"
+    },
+    {
+      "id": "trx1661368146600",
+      "keranjang": [
+        {
+          "id": 2,
+          "nama": "Rainy Egg OnTop Burger",
+          "harga": 50000,
+          "gambar": "egg_ontop_burger.png",
+          "is_ready": true,
+          "jum": 1
+        }
+      ],
+      "detail": {
+        "subtotal": 50000,
+        "tax": 5500
+      },
+      "total": 55500,
+      "tanggal_transaksi": "2022-08-24 19:09:06"
+    },
+    {
+      "id": "trx1661374000740",
+      "keranjang": [
+        {
+          "id": 2,
+          "nama": "Rainy Egg OnTop Burger",
+          "harga": 50000,
+          "gambar": "egg_ontop_burger.png",
+          "is_ready": true,
+          "jum": 3
+        }
+      ],
+      "detail": {
+        "subtotal": 150000,
+        "tax": 16500
+      },
+      "total": 166500,
+      "tanggal_transaksi": "2022-08-24 20:46:40"
+    },
+    {
+      "id": "trx1661374009567",
+      "keranjang": [
+        {
+          "id": 7,
+          "nama": "Paket Double Burger and Fries",
+          "harga": 115000,
+          "gambar": "paket_double_burger_fries.png",
+          "is_ready": true,
+          "jum": 1
+        },
+        {
+          "id": 5,
+          "nama": "Golden Fries",
+          "harga": 10000,
+          "gambar": "fries.png",
+          "is_ready": true,
+          "jum": 1
+        }
+      ],
+      "detail": {
+        "subtotal": 125000,
+        "tax": 13750
+      },
+      "total": 138750,
+      "tanggal_transaksi": "2022-08-24 20:46:49"
+    },
+    {
+      "id": "trx1661374016126",
+      "keranjang": [
+        {
+          "id": 13,
+          "nama": "Italian Fusilini Meatballs",
+          "harga": 18000,
+          "gambar": "italian_fusilli_meatballs.png",
+          "is_ready": true,
+          "jum": 1
+        },
+        {
+          "id": 12,
+          "nama": "Italian Spaghetti Meatballs",
+          "harga": 18000,
+          "gambar": "italian_spaghetti_meatballs.png",
+          "is_ready": true,
+          "jum": 1
+        },
+        {
+          "id": 14,
+          "nama": "Italian Fettuccie Saltedegg Meatballs",
+          "harga": 25000,
+          "gambar": "italian_fettuccie_salted_egg_meatballs.png",
+          "is_ready": true,
+          "jum": 1
+        }
+      ],
+      "detail": {
+        "subtotal": 61000,
+        "tax": 6710
+      },
+      "total": 67710,
+      "tanggal_transaksi": "2022-08-24 20:46:56"
+    },
+    {
+      "id": "trx1661374021852",
+      "keranjang": [
+        {
+          "id": 9,
+          "nama": "Paperoni & Cheese Pizza with Tomato Sauce",
+          "harga": 78000,
+          "gambar": "paperoni_cheese_pizza_tomato.png",
+          "is_ready": true,
+          "jum": 3
+        }
+      ],
+      "detail": {
+        "subtotal": 234000,
+        "tax": 25740
+      },
+      "total": 259740,
+      "tanggal_transaksi": "2022-08-24 20:47:01"
+    },
+    {
+      "id": "trx1661377326815",
+      "keranjang": [
+        {
+          "id": 9,
+          "nama": "Paperoni & Cheese Pizza with Tomato Sauce",
+          "harga": 78000,
+          "gambar": "paperoni_cheese_pizza_tomato.png",
+          "is_ready": true,
+          "jum": 1
+        },
+        {
+          "id": 10,
+          "nama": "Shrimp Fresh Seafood Pizza",
+          "harga": 78000,
+          "gambar": "seafood_pizza.png",
+          "is_ready": true,
+          "jum": 1
+        },
+        {
+          "id": 11,
+          "nama": "Chicken Mushroom Pizza",
+          "harga": 80000,
+          "gambar": "chicken_mushroom_pizza.png",
+          "is_ready": true,
+          "jum": 1
+        }
+      ],
+      "detail": {
+        "subtotal": 236000,
+        "tax": 25960
+      },
+      "total": 261960,
+      "tanggal_transaksi": "2022-08-24 21:42:06"
+    }
+  ]
+}
