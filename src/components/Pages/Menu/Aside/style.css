@@ -1,0 +1,68 @@
+/* .aside{
+  position: sticky;
+  height:100vh;
+  top: 0;
+} */
+
+.aside{
+  position: sticky;
+  top: 0;
+  background-color: white;
+  overflow-y: auto;
+  max-height: 100vh;
+}
+
+
+.listKeranjang {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 48vh;
+}
+.totalBox{
+  background-color: #fafafa;
+  border: 1px solid #bebebe ;
+}
+
+.bayarBtn{
+  min-height: 48px;
+  color: black;
+  background-color: #fdfaee;
+  border: 1px solid #ffd45d ;
+}
+
+.bayarBtn:hover{
+  background-color: #fdf4d7;
+  color: black;
+}
+
+.bayarBtn.active{
+  background-color: #ffd45d;
+  color: black;
+}
+
+.aside-container.collapse:not(.show) {
+  display: block;
+} 
+
+@media only screen and (max-width: 992px) {
+  /* .aside{
+      position: fixed;
+      right: 0;
+      height: 100vh;
+      width: 80vw;
+      background-color: white;
+      z-index: 0;  
+      overflow-y: auto; 
+  } */
+
+  .aside-container{
+    position: fixed;
+    height: 100vh;
+    width: 80vw;
+    right: 0;
+  }
+  .aside-container.collapse:not(.show) {
+    display: none;
+  } 
+}
+

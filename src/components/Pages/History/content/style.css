@@ -1,0 +1,21 @@
+th{
+    vertical-align: middle;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+td:not(.iner) {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.total{
+    padding-top: 30px;
+}
+.txTotal{
+    color: #0ab964;
+}
+  

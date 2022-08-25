@@ -1,0 +1,39 @@
+.sidebar{
+    position: sticky;
+    top: 0;
+    height:100vh;
+    background-color: white;
+}
+
+.navItem{
+    color: black;
+}
+
+.navItem:hover{
+    background-color: #fdf4d7;
+    color: black;
+}
+
+.navItem.active{
+    background-color: #ffd45d;
+    color: black;
+}
+
+.collapse:not(.show) {
+    display: block;
+}  
+
+@media only screen and (max-width: 1200px) {
+    .sidebar{
+        position: fixed;
+        height: auto;
+        width: 100vw;
+        background-color: white;
+        z-index: 100;   
+    }
+
+    .collapse:not(.show) {
+        display: none;
+    } 
+
+}

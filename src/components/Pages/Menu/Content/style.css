@@ -1,0 +1,45 @@
+.notAvilable{
+    filter: grayscale(100%);
+}
+
+.kateItem{
+    color: black;
+    background-color: #fdfaee;
+    border: 1px solid #ffd45d ;
+    white-space: normal;
+}
+
+.kateItem:hover{
+    background-color: #fdf4d7;
+    color: black;
+}
+
+.kateItem.active{
+    background-color: #ffd45d;
+    color: black;
+}
+
+.kateIcon{
+    width: 40%;
+    height: 40%;
+    fill: black;
+}
+
+.addKeranjangBtn{
+    background-color: #fdf4d7;
+    color:black
+}
+
+.addKeranjangBtn:hover{
+    background-color: #ffd45d;
+}
+
+.addedNotifOn{
+    color: rgb(59, 211, 59);
+  }
+  
+  .addedNotifOff{
+    color: rgb(226, 226, 226);
+  }
+
+
